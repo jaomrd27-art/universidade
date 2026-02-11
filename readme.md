@@ -8,8 +8,8 @@ flowchart LR
     Usuario([secretaria])
 
     UC1((Cadastrar Alunos))
-    UC2 ((Editar Alunos))
-    UC3 ((Transferir Aluno))
+    UC2((Editar Alunos))
+    UC3((Transferir Aluno))
 
     Usuario --> UC1
     Usuario --> UC2
@@ -19,13 +19,13 @@ flowchart LR
 ## Diagrama de Classes 
 ```mermaid
 classDiagram
-    class Aluno{
-        - Nome 
-        - Email
-        - CPF
-        - Telefone
-        - Endereço 
-        - Matrícula 
+    class aluno{
+        - nome 
+        - email
+        - cpf
+        - telefone
+        - endereço 
+        - matrícula 
         + cadastrar()
         + editar()
         + transferir()    
