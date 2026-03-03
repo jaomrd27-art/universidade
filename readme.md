@@ -31,6 +31,36 @@ classDiagram
         + transferir()    
     }
 ```
+# Funções MySQL
+
+- CREATE - Cria tabelas dentro da base de dados.
+- INSERT - Cria registros dentro das tabelas.
+
+- SELECT - Permite visualizar os dados dentro das tabelas. Também permite filtrar os dados que quer visualizar.
+
+- ALTER - Altera a estrutura das tabelas, adicionando ou removendo atributos(campos).
+- UPDATE - Atualiza regristros dentro da tabela.
+
+- DROP - Exclui a tabela ou a base de dados inteira.
+- DELETE - Exclui registros dentro das tabelas.
+
+#  Conceitos MySQL
+
+- Banco de Dados: Programa hospedado na máquina, com objetivo de persistir os dados fisicamente no HD.
+
+- Base de Dados: Conjunto de tabelas.
+
+- Tabelas: Conjunto de registros.
+
+- Registros: Uma linha na tabela, contendo a informação dos seus atributos.
+
+- Atributos: Uma das caracteristicas da tabela (Colunas).
+
+# Bibliotecas Python
+
+- Python
+- PySide6
+- PyInstaller
 
 ## Dependências
 - **VSCode**: IDE(Interface de Desenvolvimento)
@@ -44,3 +74,5 @@ documentos MD (Mark Down)
 
  - **Git Lens**: Interface gráfica para o versionamento .git integrada 
  ao VSCode. 
+
+ - **MySQL**: SGB (Sistema Gerenciado de Banco de Dados). Permite conectar o usuário como servidor MySQL, possibilitando criar bases de dados, tabelas, incluir e modificar atributos e registros. 
