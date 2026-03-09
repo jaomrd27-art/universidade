@@ -60,7 +60,7 @@ classDiagram
 
 - Python
 - PySide6
-- PyInstaller
+- PyInstaller 
 
 ## Dependências
 - **VSCode**: IDE(Interface de Desenvolvimento)
@@ -76,3 +76,27 @@ documentos MD (Mark Down)
  ao VSCode. 
 
  - **MySQL**: SGB (Sistema Gerenciado de Banco de Dados). Permite conectar o usuário como servidor MySQL, possibilitando criar bases de dados, tabelas, incluir e modificar atributos e registros. 
+
+ ## Build
+
+ - **Dependencias:**
+ 
+ ~~pip install pyinstaller~~
+ ```
+ pip install -r requirements.txt
+ ```
+
+ **Congelar Deependências:**
+ ```
+ pip freeze > requirements.txt
+ ```
+
+ **Diretório raiz do Projeto:**  Pasta Python
+ ```
+ cd python
+ ```
+ ```
+ pyinstaller --onefile --windowed app.py
+ ```
+
+ **O executável estará em:** dist/app.exe
